@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8556A84316075385007D25BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8556A84216075385007D25BC /* UIKit.framework */; };
+		8556A84516075385007D25BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8556A84416075385007D25BC /* Foundation.framework */; };
+		8556A84716075385007D25BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8556A84616075385007D25BC /* CoreGraphics.framework */; };
+		8556A84D16075385007D25BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8556A84B16075385007D25BC /* InfoPlist.strings */; };
+		8556A84F16075385007D25BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8556A84E16075385007D25BC /* main.m */; };
+		8556A85316075385007D25BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8556A85216075385007D25BC /* AppDelegate.m */; };
+		8556A85616075385007D25BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8556A85516075385007D25BC /* ViewController.m */; };
+		8556A85916075385007D25BC /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8556A85716075385007D25BC /* ViewController_iPhone.xib */; };
+		8556A85C16075385007D25BC /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8556A85A16075385007D25BC /* ViewController_iPad.xib */; };
+		8556A86416075385007D25BC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8556A86316075385007D25BC /* SenTestingKit.framework */; };
+		8556A86516075385007D25BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8556A84216075385007D25BC /* UIKit.framework */; };
+		8556A86616075385007D25BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8556A84416075385007D25BC /* Foundation.framework */; };
+		8556A86E16075385007D25BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8556A86C16075385007D25BC /* InfoPlist.strings */; };
+		8556A87116075385007D25BC /* guessNumbersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8556A87016075385007D25BC /* guessNumbersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8556A86716075385007D25BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8556A83516075385007D25BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8556A83D16075385007D25BC;
+			remoteInfo = guessNumbers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8556A83E16075385007D25BC /* guessNumbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guessNumbers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8556A84216075385007D25BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8556A84416075385007D25BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8556A84616075385007D25BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8556A84A16075385007D25BC /* guessNumbers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "guessNumbers-Info.plist"; sourceTree = "<group>"; };
+		8556A84C16075385007D25BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8556A84E16075385007D25BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8556A85016075385007D25BC /* guessNumbers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "guessNumbers-Prefix.pch"; sourceTree = "<group>"; };
+		8556A85116075385007D25BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8556A85216075385007D25BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8556A85416075385007D25BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8556A85516075385007D25BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8556A85816075385007D25BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		8556A85B16075385007D25BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		8556A86216075385007D25BC /* guessNumbersTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guessNumbersTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8556A86316075385007D25BC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8556A86B16075385007D25BC /* guessNumbersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "guessNumbersTests-Info.plist"; sourceTree = "<group>"; };
+		8556A86D16075385007D25BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8556A86F16075385007D25BC /* guessNumbersTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = guessNumbersTests.h; sourceTree = "<group>"; };
+		8556A87016075385007D25BC /* guessNumbersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = guessNumbersTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8556A83B16075385007D25BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8556A84316075385007D25BC /* UIKit.framework in Frameworks */,
+				8556A84516075385007D25BC /* Foundation.framework in Frameworks */,
+				8556A84716075385007D25BC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8556A85E16075385007D25BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8556A86416075385007D25BC /* SenTestingKit.framework in Frameworks */,
+				8556A86516075385007D25BC /* UIKit.framework in Frameworks */,
+				8556A86616075385007D25BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8556A83316075385007D25BC = {
+			isa = PBXGroup;
+			children = (
+				8556A84816075385007D25BC /* guessNumbers */,
+				8556A86916075385007D25BC /* guessNumbersTests */,
+				8556A84116075385007D25BC /* Frameworks */,
+				8556A83F16075385007D25BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8556A83F16075385007D25BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8556A83E16075385007D25BC /* guessNumbers.app */,
+				8556A86216075385007D25BC /* guessNumbersTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8556A84116075385007D25BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8556A84216075385007D25BC /* UIKit.framework */,
+				8556A84416075385007D25BC /* Foundation.framework */,
+				8556A84616075385007D25BC /* CoreGraphics.framework */,
+				8556A86316075385007D25BC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8556A84816075385007D25BC /* guessNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				8556A85116075385007D25BC /* AppDelegate.h */,
+				8556A85216075385007D25BC /* AppDelegate.m */,
+				8556A85416075385007D25BC /* ViewController.h */,
+				8556A85516075385007D25BC /* ViewController.m */,
+				8556A85716075385007D25BC /* ViewController_iPhone.xib */,
+				8556A85A16075385007D25BC /* ViewController_iPad.xib */,
+				8556A84916075385007D25BC /* Supporting Files */,
+			);
+			path = guessNumbers;
+			sourceTree = "<group>";
+		};
+		8556A84916075385007D25BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8556A84A16075385007D25BC /* guessNumbers-Info.plist */,
+				8556A84B16075385007D25BC /* InfoPlist.strings */,
+				8556A84E16075385007D25BC /* main.m */,
+				8556A85016075385007D25BC /* guessNumbers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8556A86916075385007D25BC /* guessNumbersTests */ = {
+			isa = PBXGroup;
+			children = (
+				8556A86F16075385007D25BC /* guessNumbersTests.h */,
+				8556A87016075385007D25BC /* guessNumbersTests.m */,
+				8556A86A16075385007D25BC /* Supporting Files */,
+			);
+			path = guessNumbersTests;
+			sourceTree = "<group>";
+		};
+		8556A86A16075385007D25BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8556A86B16075385007D25BC /* guessNumbersTests-Info.plist */,
+				8556A86C16075385007D25BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8556A83D16075385007D25BC /* guessNumbers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8556A87416075385007D25BC /* Build configuration list for PBXNativeTarget "guessNumbers" */;
+			buildPhases = (
+				8556A83A16075385007D25BC /* Sources */,
+				8556A83B16075385007D25BC /* Frameworks */,
+				8556A83C16075385007D25BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = guessNumbers;
+			productName = guessNumbers;
+			productReference = 8556A83E16075385007D25BC /* guessNumbers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8556A86116075385007D25BC /* guessNumbersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8556A87716075385007D25BC /* Build configuration list for PBXNativeTarget "guessNumbersTests" */;
+			buildPhases = (
+				8556A85D16075385007D25BC /* Sources */,
+				8556A85E16075385007D25BC /* Frameworks */,
+				8556A85F16075385007D25BC /* Resources */,
+				8556A86016075385007D25BC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8556A86816075385007D25BC /* PBXTargetDependency */,
+			);
+			name = guessNumbersTests;
+			productName = guessNumbersTests;
+			productReference = 8556A86216075385007D25BC /* guessNumbersTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8556A83516075385007D25BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "朱 皓斌";
+			};
+			buildConfigurationList = 8556A83816075385007D25BC /* Build configuration list for PBXProject "guessNumbers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8556A83316075385007D25BC;
+			productRefGroup = 8556A83F16075385007D25BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8556A83D16075385007D25BC /* guessNumbers */,
+				8556A86116075385007D25BC /* guessNumbersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8556A83C16075385007D25BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8556A84D16075385007D25BC /* InfoPlist.strings in Resources */,
+				8556A85916075385007D25BC /* ViewController_iPhone.xib in Resources */,
+				8556A85C16075385007D25BC /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8556A85F16075385007D25BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8556A86E16075385007D25BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8556A86016075385007D25BC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8556A83A16075385007D25BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8556A84F16075385007D25BC /* main.m in Sources */,
+				8556A85316075385007D25BC /* AppDelegate.m in Sources */,
+				8556A85616075385007D25BC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8556A85D16075385007D25BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8556A87116075385007D25BC /* guessNumbersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8556A86816075385007D25BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8556A83D16075385007D25BC /* guessNumbers */;
+			targetProxy = 8556A86716075385007D25BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8556A84B16075385007D25BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8556A84C16075385007D25BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8556A85716075385007D25BC /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8556A85816075385007D25BC /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8556A85A16075385007D25BC /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8556A85B16075385007D25BC /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		8556A86C16075385007D25BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8556A86D16075385007D25BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8556A87216075385007D25BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8556A87316075385007D25BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8556A87516075385007D25BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "guessNumbers/guessNumbers-Prefix.pch";
+				INFOPLIST_FILE = "guessNumbers/guessNumbers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8556A87616075385007D25BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "guessNumbers/guessNumbers-Prefix.pch";
+				INFOPLIST_FILE = "guessNumbers/guessNumbers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8556A87816075385007D25BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/guessNumbers.app/guessNumbers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "guessNumbers/guessNumbers-Prefix.pch";
+				INFOPLIST_FILE = "guessNumbersTests/guessNumbersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8556A87916075385007D25BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/guessNumbers.app/guessNumbers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "guessNumbers/guessNumbers-Prefix.pch";
+				INFOPLIST_FILE = "guessNumbersTests/guessNumbersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8556A83816075385007D25BC /* Build configuration list for PBXProject "guessNumbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8556A87216075385007D25BC /* Debug */,
+				8556A87316075385007D25BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8556A87416075385007D25BC /* Build configuration list for PBXNativeTarget "guessNumbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8556A87516075385007D25BC /* Debug */,
+				8556A87616075385007D25BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8556A87716075385007D25BC /* Build configuration list for PBXNativeTarget "guessNumbersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8556A87816075385007D25BC /* Debug */,
+				8556A87916075385007D25BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8556A83516075385007D25BC /* Project object */;
+}
